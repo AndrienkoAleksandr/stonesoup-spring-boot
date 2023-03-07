@@ -13,7 +13,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return String.format("Welcome to the %s bar !",bar);
+        return String.fo rmat("Welcome to the %s bar !",bar);
     }
 
     @Value("${bar:jungle}")
